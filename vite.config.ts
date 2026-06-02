@@ -10,6 +10,7 @@ export default defineConfig({
       presets: [reactCompilerPreset()],
     }),
   ],
+  base: "/02-react-cafe/",
   build: {
     sourcemap: true,
   },
